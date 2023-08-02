@@ -106,7 +106,7 @@ CREATE TABLE Price (
 );
 
 -- Parameters for Query 5 (guaranteed only one row in this table).
-CREATE TABLE q5_parameters (
+CREATE TABLE parameters (
   -- the date to start flight hopping
   day timestamp,
   -- the maximum number of flights from YYZ
