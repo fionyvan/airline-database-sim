@@ -115,13 +115,13 @@ CREATE TABLE q5_parameters (
 
 
 -- Data loaded in from CSV files.
-\COPY passenger FROM '/Users/fionyvan/workspace/airline-database-sim/data/passenger.csv' DELIMITER ',' CSV header;
-\COPY airport FROM '/Users/fionyvan/workspace/airline-database-sim/data/airport.csv' DELIMITER ',' CSV header;
-\COPY airline FROM '/Users/fionyvan/workspace/airline-database-sim/data/airline.csv' DELIMITER ',' CSV header;
-\COPY plane FROM '/Users/fionyvan/workspace/airline-database-sim/data/plane.csv' DELIMITER ',' CSV header;
-\COPY flight FROM '/Users/fionyvan/workspace/airline-database-sim/data/flight.csv' DELIMITER ',' CSV header;
-\COPY departure FROM '/Users/fionyvan/workspace/airline-database-sim/data/departure.csv' DELIMITER ',' CSV header;
-\COPY arrival FROM '/Users/fionyvan/workspace/airline-database-sim/data/arrival.csv' DELIMITER ',' CSV header;
-\COPY booking FROM '/Users/fionyvan/workspace/airline-database-sim/data/booking.csv' DELIMITER ',' CSV header;
-\COPY price FROM '/Users/fionyvan/workspace/airline-database-sim/data/price.csv' DELIMITER ',' CSV header;
-\COPY q5_parameters FROM '/Users/fionyvan/workspace/airline-database-sim/data/q5_parameters.csv' DELIMITER ',' CSV header;
+\COPY passenger FROM 'data/passenger.csv' DELIMITER ',' CSV header;
+\COPY airport FROM 'data/airport.csv' DELIMITER ',' CSV header;
+\COPY airline FROM 'data/airline.csv' DELIMITER ',' CSV header;
+\COPY plane FROM 'data/plane.csv' DELIMITER ',' CSV header;
+\COPY flight FROM 'data/flight.csv' DELIMITER ',' CSV header;
+\COPY departure FROM 'data/departure.csv' DELIMITER ',' CSV header;
+\COPY arrival FROM 'data/arrival.csv' DELIMITER ',' CSV header;
+\COPY booking FROM 'data/booking.csv' DELIMITER ',' CSV header;
+\COPY price FROM 'data/price.csv' DELIMITER ',' CSV header;
+\COPY q5_parameters FROM 'data/parameters.csv' DELIMITER ',' CSV header;
