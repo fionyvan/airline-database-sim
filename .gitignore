@@ -1,9 +1,0 @@
-.DS_Store
-.gitignore
-
-/a2/
-/pdf/
-
-# data files
-/data/sql_templates/
-/data/a2.py
